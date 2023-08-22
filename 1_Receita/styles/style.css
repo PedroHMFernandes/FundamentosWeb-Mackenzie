@@ -53,6 +53,15 @@ img {
 
 }
 
+.conteudo_mais_link {
+    text-decoration: none;
+    color: rgb(14, 14, 220)
+}
+
+.conteudo_mais_link:hover {
+    text-decoration: underline;
+}
+
 .remy {
     padding: 17%;
 }
