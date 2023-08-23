@@ -1,0 +1,22 @@
+th,
+td,
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+td {
+    width: 18%
+}
+
+.hora {
+    width: 7%;
+
+}
