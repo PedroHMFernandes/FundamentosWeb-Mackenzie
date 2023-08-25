@@ -54,6 +54,13 @@ td,
     text-align: center;
 }
 
+th {
+    font-size: 18px;
+    width: 10%;
+    text-decoration: none;
+    font-weight: 400;
+}
+
 td {
     font-size: 18px;
     width: 10%;
