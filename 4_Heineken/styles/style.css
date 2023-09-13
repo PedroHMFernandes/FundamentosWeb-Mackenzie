@@ -1,97 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-
-    margin: 0;
-    background: linear-gradient(to right, #005d1f 0%, #277816 50%, #005d1f 100%);
-
+  margin: 0;
+  background: linear-gradient(to right, #005d1f 0%, #277816 50%, #005d1f 100%);
 }
 
 section {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .conteudo {
-    display: flex;
-    flex-flow: column;
-    gap: 3%;
-    font-family: 'PT Serif', serif;
-    color: #fff;
-    width: 30%;
-    margin-left: 13%;
+  display: flex;
+  flex-flow: column;
+  gap: 3%;
+  font-family: "PT Serif", serif;
+  color: #fff;
+  width: 30%;
+  margin-left: 13%;
 }
 
 header {
-    margin: 15% 0% 5% 0%;
-    display: flex;
+  margin: 15% 0% 5% 0%;
+  display: flex;
 }
 
 .conteudo__titulo {
-    font-size: 60px;
-    font-weight: 700;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .conteudo__titulo__logotipo {
-    max-width: 10%;
-    max-height: 70%;
+  max-width: 10%;
+  max-height: 70%;
 }
 
 .conteudo__paragrafo {
-    font-size: 24px;
-    font-weight: 400;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 tr,
 td,
 .conteudo__tabela {
-    border: 2px solid #fff;
-    border-collapse: collapse;
-    text-align: center;
+  border: 2px solid #fff;
+  border-collapse: collapse;
+  text-align: center;
 }
 
 th {
-    font-size: 18px;
-    width: 10%;
-    text-decoration: none;
-    font-weight: 400;
+  font-size: 18px;
+  width: 10%;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 td {
-    font-size: 18px;
-    width: 10%;
+  font-size: 18px;
+  width: 10%;
 }
 
 .imagem__garrafa {
-    max-height: 80%;
+  max-height: 80%;
 }
 
 footer {
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    font-family: 'PT Serif', serif;
-    font-weight: 400;
-    font-size: 18px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    gap: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 
 .logotipo {
-    /* margin-left: 35%; */
-    max-width: 175px;
-    width: auto;
-    height: auto;
+  /* margin-left: 35%; */
+  max-width: 175px;
+  width: auto;
+  height: auto;
 }
 
 .logotipo_menor {
-    width: 50px;
+  width: 50px;
 }
