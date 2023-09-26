@@ -50,7 +50,7 @@ body {
 .conteudo{
   margin: 1% 7%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around ;
 }
 
 .conteudo__lateral{
