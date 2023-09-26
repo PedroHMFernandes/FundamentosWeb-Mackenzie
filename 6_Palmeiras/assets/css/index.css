@@ -14,20 +14,23 @@ body {
 }
 .cabecalho__slogan {
   background-color: rgb(24, 80, 24);
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   padding: 0.3rem;
 }
+
 .cabecalho__foto {
-  width: 7.5%;
+  width: 10%;
   float: left;
   margin-left: 0.8rem;
 }
+
 .cabecalho__titulo {
-  padding: 1.8rem 0;
+  margin-right: 6.82rem;
+  padding: 1.2rem 0;
   color: white;
   text-align: center;
   font-family: garamond;
-  font-size: 40px;
+  font-size: 40px;  
 }
 .cabecalho__nav {
   padding: 0.3rem;
@@ -35,11 +38,38 @@ body {
   background-color: white;
   text-align: center;
 }
+.container{
+  margin-right: 6.82rem;
+}
 
 .cabecalho__nav__botoes {
   color: rgb(7, 128, 7);
   text-decoration: none;
   margin: 10px;
+}
+.conteudo{
+  margin: 1% 7%;
+  
+}
+
+.conteudo__lateral{
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  float: right;
+  width: 10%;
+  height: 22rem;
+  text-align: center;
+  background-color: white;
+}
+.conteudo__principal{
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  width: 70%;
+  float: left;
+  background-color: white;
+  height: 22rem;
 }
 .rodape {
   font-size: 1.2rem;
@@ -49,6 +79,6 @@ body {
   left: 0;
   background-color: white;
   color: green;
-  padding: 0.8rem;
+  padding: 0.3rem;
   text-align: center;
 }
