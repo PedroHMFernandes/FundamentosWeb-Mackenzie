@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(36, 119, 36);
+}
+
+.cabecalho{
+    color: white;
+    background-color: rgb(7, 80, 7);
+    width: 100%;
+}
+/* .cabecalho__slogan{
+} */
+.cabecalho__foto{
+    width: 7%;
+    float: left ;
+    margin-right: 7px;
+    clear: left;
+}
+.cabecalho__titulo{
+    margin-top: 60px;
+    top: 32px;
+    color: white;
+    text-align: center;
+    font-family: garamond;
+    font-size: 39px;
+}
+.cabecalho__nav{
+    color: white;
+    padding: 0.3rem;
+    background-color: rgb(9, 118, 9);
+    text-align: center;
+}
+
+.cabecalho__nav__botoes{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.rodape{
+    background-color: white;
+    color: green;
+    padding: 0.3rem;
+    text-align: center;
+}
