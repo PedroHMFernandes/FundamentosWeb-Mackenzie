@@ -49,14 +49,15 @@ body {
 }
 .conteudo{
   margin: 1% 7%;
-  
+  display: flex;
+  justify-content: space-around;
 }
 
 .conteudo__lateral{
   box-sizing: border-box;
   padding: 0.5rem;
   border-radius: 0.3rem;
-  float: right;
+  /* float: right; */
   width: 10%;
   height: 22rem;
   text-align: center;
@@ -67,7 +68,7 @@ body {
   padding: 0.5rem;
   border-radius: 0.3rem;
   width: 70%;
-  float: left;
+  /* float: left; */
   background-color: white;
   height: 22rem;
 }
