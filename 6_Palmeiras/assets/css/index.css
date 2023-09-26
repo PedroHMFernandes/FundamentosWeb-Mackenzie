@@ -19,18 +19,18 @@ body {
 }
 
 .cabecalho__foto {
-  width: 10%;
+  max-width: 8%;
   float: left;
   margin-left: 0.8rem;
 }
 
 .cabecalho__titulo {
   margin-right: 6.82rem;
-  padding: 1.2rem 0;
+  padding: 1.5rem 0;
   color: white;
   text-align: center;
   font-family: garamond;
-  font-size: 40px;  
+  font-size: 3rem;
 }
 .cabecalho__nav {
   padding: 0.3rem;
@@ -38,7 +38,7 @@ body {
   background-color: white;
   text-align: center;
 }
-.container{
+.cabecalho__nav-container {
   margin-right: 6.82rem;
 }
 
@@ -46,31 +46,48 @@ body {
   color: rgb(7, 128, 7);
   text-decoration: none;
   margin: 10px;
+  font-size: 1.3rem;
 }
-.conteudo{
+.cabecalho__nav__botoes:hover {
+  color: rgb(29, 95, 29);
+}
+.conteudo {
   margin: 1% 7%;
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
 }
 
-.conteudo__lateral{
-  box-sizing: border-box;
-  padding: 0.5rem;
+.conteudo__lateral {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
   border-radius: 0.3rem;
-  /* float: right; */
-  width: 10%;
-  height: 22rem;
   text-align: center;
   background-color: white;
 }
-.conteudo__principal{
-  box-sizing: border-box;
-  padding: 0.5rem;
+.conteudo__lateral__link {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(7, 128, 7);
+}
+.conteudo__lateral__link:hover {
+  color: rgb(29, 95, 29);
+}
+.conteudo__principal {
+  display: flex;
+  padding: 1.2rem;
   border-radius: 0.3rem;
-  width: 70%;
-  /* float: left; */
   background-color: white;
-  height: 22rem;
+  width: 78%;
+  height: 40rem;
+}
+
+.conteudo__principal__titulo {
+  font-size: 2.5rem;
+}
+.conteudo__principal__texto {
+  font-size: 1.5rem;
+  width: 95%;
 }
 .rodape {
   font-size: 1.2rem;
