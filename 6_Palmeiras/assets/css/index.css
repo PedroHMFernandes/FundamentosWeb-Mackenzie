@@ -38,6 +38,7 @@ body {
   background-color: white;
   text-align: center;
 }
+
 .cabecalho__nav-container {
   margin-right: 6.82rem;
 }
@@ -79,7 +80,6 @@ body {
   border-radius: 0.3rem;
   background-color: white;
   width: 78%;
-  height: 40rem;
 }
 
 .conteudo__principal__titulo {
