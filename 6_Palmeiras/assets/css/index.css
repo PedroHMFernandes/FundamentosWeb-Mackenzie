@@ -12,6 +12,7 @@ body {
   background-color: #106317;
   width: 100%;
 }
+
 .cabecalho__slogan {
   background-color: rgb(24, 80, 24);
   font-size: 0.9rem;
@@ -32,12 +33,14 @@ body {
   font-family: garamond;
   font-size: 40px;  
 }
+
 .cabecalho__nav {
   padding: 0.3rem;
   border-bottom: 0.3rem solid #9b8542;
   background-color: white;
   text-align: center;
 }
+
 .container{
   margin-right: 6.82rem;
 }
@@ -47,6 +50,7 @@ body {
   text-decoration: none;
   margin: 10px;
 }
+
 .conteudo{
   margin: 1% 7%;
   display: flex;
@@ -63,6 +67,7 @@ body {
   text-align: center;
   background-color: white;
 }
+
 .conteudo__principal{
   box-sizing: border-box;
   padding: 0.5rem;
@@ -72,6 +77,7 @@ body {
   background-color: white;
   height: 22rem;
 }
+
 .rodape {
   font-size: 1.2rem;
   position: absolute;
