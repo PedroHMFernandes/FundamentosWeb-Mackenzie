@@ -66,3 +66,7 @@ body {
   background-color: #be9f3f;
   cursor: pointer;
 }
+
+.formulario__banner {
+  width: 23%;
+}
