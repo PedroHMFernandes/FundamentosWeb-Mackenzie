@@ -1,0 +1,38 @@
+.foto-background {
+  background-image: url("./images/foto01.jpg");
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secao {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  background-color: white;
+}
+
+.container__texto {
+  color: #0f5f16;
+  font-size: 1.5rem;
+  margin: 1.3rem 2rem;
+}
+
+.secao__imagem {
+  max-width: 80%;
+}
+
+.rodape__historia {
+  background-color: white;
+  font-size: 1.5rem;
+  color: green;
+  padding: 1rem;
+  text-align: center;
+  border-top: 0.3rem solid #9b8542;
+}
+
+.secao__container {
+  display: flex;
+  flex-direction: column;
+}
