@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro Fernandes, Guilherme Soares">
+    <link rel="stylesheet" href="./assets/index.css" type="text/css">
+    <link rel="stylesheet" href="./assets/camisas.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
+    <title>História do Palmeiras</title>
+</head>
+
+<body class="oi">
+    <header class="cabecalho">
+        <p class="cabecalho__slogan">#MAIORCAMPEÃODOBRASIL | Blog não Oficial</p>
+        <a href="index.html"><img class="cabecalho__foto" src="assets/images/palmeiras-logo.png"></a>
+        <h1 class="cabecalho__titulo">Camisas do Palmeiras</h1>
+        <nav class="cabecalho__nav">
+            <div class="cabecalho__nav-container">
+                <a class="cabecalho__nav__botoes" href="historia.html">História</a>
+                <a class="cabecalho__nav__botoes" href="#">Ídolos</a>
+                <a class="cabecalho__nav__botoes" href="camisas.html">Camisas</a>
+                <a class="cabecalho__nav__botoes" href="pagestadio.html">Estádio</a>
+            </div>
+        </nav>
+        <div></div>
+    </header>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Camisas Comemorativas</h2>
+        <div class="carrossel__container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/images/camisas/70anosmundial51.png"
+                            alt="camisa comemorativa 51"></div>
+                    <div class="swiper-slide"><img src="assets/images/camisas/centenario.png"
+                            alt="camisa comemorativa centenario"></div>
+                    <div class="swiper-slide"><img src="assets/images/camisas/decampeao.png" alt="camisa comemorativa">
+                    </div>
+                    <div class="swiper-slide"><img src="assets/images/camisas/Djalma.png" alt="camisa comemorativa">
+                    </div>
+                    <div class="swiper-slide"><img src="assets/images/camisas/libertadores2020.png"
+                            alt="camisa comemorativa libertadores 2020"></div>
+                    <div class="swiper-slide"><img src="assets/images/camisas/libertadores99.png"
+                            alt="camisa comemorativa libertadores 99"></div>
+                    <div class="swiper-slide"><img src="assets/images/camisas/Marcos500.png"
+                            alt="camisa comemorativa Marcos 500 jogos">
+                    </div>
+                    <div class="swiper-slide"><img src="assets/images/camisas/oberdanCattani.png"
+                            alt="camisa comemorativa Oberdan Cattani"></div>
+                    <div class="swiper-slide"><img src="assets/images/camisas/paulistao2020.png"
+                            alt="camisa comemorativa Paulistão 2020"></div>
+                    <div class="swiper-slide"><img src="assets/images/camisas/tetracopadobr.png"
+                            alt="camisa comemorativa tetra Copa do Brasil"></div>
+                </div>
+            </div>
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Camisas por Década</h2>
+            <div class="carrossel__container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="assets/images/camisas/1915-primeira.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/1924.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/1937.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/1942.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/1951.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/1959-1965.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/1972.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/1981.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/1993.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/1989-1992.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/2000.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/2010.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/camisas/2020.png"></div>
+                    </div>
+                </div>
+            </div>
+            <footer class="rodape__camisas">
+                <p class="rodape__camisas__texto">Desenvolvido por Guilherme Soares e Pedro Fernandes</p>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+            <script>const swiper = new Swiper('.swiper', {
+                    spaceBetween: 10,
+                    slidesPerView: 4,
+                    loop: true,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        type: 'bullets',
+                    },
+                });
+            </script>
+</body>
+
+</html>
