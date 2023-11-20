@@ -38,7 +38,6 @@ body {
   padding: 0.3rem;
   border-bottom: 0.3rem solid #9b8542;
   background-color: white;
-  text-align: center;
 }
 
 .cabecalho__nav-container {
@@ -81,7 +80,6 @@ body {
   padding: 1.2rem;
   border-radius: 0.3rem;
   background-color: white;
-  width: 78%;
 }
 
 .conteudo__principal__titulo {
@@ -89,7 +87,6 @@ body {
 }
 .conteudo__principal__texto {
   font-size: 1.5rem;
-  width: 95%;
 }
 
 .rodape {
@@ -99,4 +96,13 @@ body {
   padding: 1rem;
   text-align: center;
   border-top: 0.3rem solid #9b8542;
+}
+.video__container {
+  text-align: center;
+}
+
+.video {
+  width: 560px;
+  height: 315px;
+  margin-bottom: 1.2rem;
 }

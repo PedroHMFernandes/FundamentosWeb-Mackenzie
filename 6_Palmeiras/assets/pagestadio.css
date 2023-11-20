@@ -18,24 +18,21 @@
   max-width: 8%;
   float: left;
   margin-left: 0.8rem;
-  z-index: 2;
-  position: absolute;
 }
 
 .cabecalho__titulo {
+  margin-right: 6.82rem;
   padding: 1.5rem 0;
   color: white;
   text-align: center;
   font-family: garamond;
   font-size: 3rem;
-  text-align: center;
 }
 
 .cabecalho__nav {
-  padding: 0.3rem 0;
+  padding: 0.3rem;
   border-bottom: 0.3rem solid #9b8542;
   background-color: white;
-  text-align: center;
 }
 
 .cabecalho__nav-container {

@@ -20,7 +20,8 @@
 }
 
 .secao__imagem {
-  max-width: 80%;
+  max-width: 50%;
+  height: auto;
 }
 
 .rodape__historia {

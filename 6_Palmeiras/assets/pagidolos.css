@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.cabecalho {
+    color: white;
+    background-color: #106317;
+    width: 100%;
+  }
+  
+  .cabecalho__slogan {
+    background-color: rgb(24, 80, 24);
+    font-size: 0.9rem;
+    padding: 0.3rem;
+  }
+  
+  .cabecalho__foto {
+    max-width: 8%;
+    float: left;
+    margin-left: 0.8rem;
+  }
+  
+  .cabecalho__titulo {
+    padding: 1.5rem 0;
+    color: white;
+    text-align: center;
+    font-family: garamond;
+    font-size: 3rem;
+  }
+  
+  .cabecalho__nav {
+    padding: 0.3rem;
+    border-bottom: 0.3rem solid #9b8542;
+    background-color: white;
+  }
+  
+  .cabecalho__nav-container {
+    margin-right: 6.82rem;
+  }
+  .cabecalho__nav__botoes {
+    color: rgb(7, 128, 7);
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.3rem;
+  }
+  .cabecalho__nav__botoes:hover {
+    color: rgb(29, 95, 29);
+  }
+  .textoprefotos{
+    color: white;
+    margin-top: 32px;
+    margin-left: 27px;
+    margin-right: 27px;
+    text-align: center;
+    font-size: 32px;
+  }
+.tracodourado{
+  width: 100%;
+  background-color: #9b8542;
+  margin-top: 30px;
+  height: 10px;
+}
+.fotodudu{
+  width: 1917px;
+  position: relative;
+  margin-top: 1   ;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.capapretadudu{
+  background: rgba(0, 0, 0, 0.6); 
+  position: absolute;
+  top: 350px;
+  width: 100%;
+  height: 111.9%;
+  z-index: 1;
+}
+.nomedudu{
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  margin-top: 400px;
+  z-index: 2;
+}
+.textodudu{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.tracodourado2{
+  width: 100%;
+  background-color: #9b8542;
+  margin-top: -8px;
+  height: 10px;
+}
+.fotomarcos{
+  width: 1917px;
+  position: relative;
+  margin-top: 1   ;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.capapretamarcos{
+  background: rgba(0, 0, 0, 0.6); 
+  position: absolute;
+  top: 1435px;
+  width: 100%;
+  height: 111.8%;
+  z-index: 1;
+}
+.nomemarcos{
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  margin-top: 450px;
+  z-index: 2;
+}
+.textomarcos{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.fotoveiga{
+  width: 1917px;
+  position: relative;
+  margin-top: 1   ;
+  margin-right: -15px;
+  margin-left: -15px;  
+}
+.capapretaveiga{
+  background: rgba(0, 0, 0, 0.6); 
+  position: absolute;
+  top: 2518px;
+  width: 100%;
+  height: 99.6%;
+  z-index: 1;
+}
+.nomeveiga{
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  margin-top: 360px;
+  z-index: 2;
+}
+.textoveiga{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.fotoademir{
+  width: 1917px;
+  position: relative;
+  margin-top: 1   ;
+  margin-right: -15px;
+  margin-left: -15px;  
+}
+.capapretaademir{
+  background: rgba(0, 0, 0, 0.6); 
+  position: absolute;
+  top: 3483px;
+  width: 100%;
+  height: 132.7%;
+  z-index: 1;
+}
+.nomeademir{
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  margin-top: 540px;
+  z-index: 2;
+}
+.textoademir{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.fotoevair{
+  width: 1917px;
+  position: relative;
+  margin-top: 1   ;
+  margin-right: -15px;
+  margin-left: -15px;  
+}
+.capapretaevair{
+  background: rgba(0, 0, 0, 0.6); 
+  position: absolute;
+  top: 4767px;
+  width: 100%;
+  height: 97.3%;
+  z-index: 1;
+}
+.nomeevair{
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  margin-top: 350px;
+  z-index: 2;
+}
+.textoevair{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.fotoalex{
+  width: 1915px;
+  position: relative;
+  margin-top: 1   ;
+  margin-right: -15px;
+  margin-left: -15px;  
+}
+.capapretaalex{
+  background: rgba(0, 0, 0, 0.6); 
+  position: absolute;
+  top: 5708px;
+  width: 100%;
+  height: 112%;
+  z-index: 1;
+}
+.nomealex{
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  margin-top: 470px;
+  z-index: 2;
+}
+.textoalex{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.fotoedmundo{
+  width: 1915px;
+  position: relative;
+  margin-top: 1   ;
+  margin-right: -15px;
+  margin-left: -15px;  
+}
+.capapretaedmundo{
+  background: rgba(0, 0, 0, 0.6); 
+  position: absolute;
+  top: 6792px;
+  width: 100%;
+  height: 131.5%;
+  z-index: 1;
+}
+.nomeedmundo{
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  margin-top: 520px;
+  z-index: 2;
+}
+.textoedmundo{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.fotovaldivia{
+  width: 1915px;
+  position: relative;
+  margin-top: 1   ;
+  margin-right: -15px;
+  margin-left: -15px;  
+}
+.capapretavaldivia{
+  background: rgba(0, 0, 0, 0.6); 
+  position: absolute;
+  top: 8065px;
+  width: 100%;
+  height: 112.5%;
+  z-index: 1;
+}
+.nomevaldivia{
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  margin-top: 520px;
+  z-index: 2;
+}
+.textovaldivia{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
